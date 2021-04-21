@@ -1,0 +1,40 @@
+body {
+	font-family: "Palatino Linotype", sans-serif;
+	font-size:16px;
+	line-height:1.5;
+	background: #eef;
+	text-align:justify;
+}
+header {
+	font-family: 'Montserrat', sans-serif;
+	font-size:72px;
+	color:yellow;
+	background-image: url("img/colors.jpg");
+	text-align:center;
+	text-transform:uppercase;
+}
+img{
+	width:12.5%;
+	float:right;
+	clear:both;
+}
+article, aside, footer, header, menu, nav, section {
+display: block;
+}
+article,section{
+	margin:20px;
+}
+text{
+	margin:5px;
+}
+images, nav, text , aside {
+	padding:1;
+}
+footer{
+	text-align:center;
+	color:white;
+	background:gray;
+}
+section{
+	border-style: groove;
+}
